@@ -72,7 +72,7 @@ class Diff {
    *
    * Returns true or false.
    */
-  bool operator ==(Diff other) {
+  bool operator ==(/*Diff*/ other) {
     return (operation == other.operation && text == other.text);
   }
 }
